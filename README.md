@@ -18,5 +18,11 @@ docs-src/build
 
 ``` shell
 docs-src/build
-vusion publish -p sailfish-ui
+vusion publish 1.0.0
+```
+
+## Deploy
+
+``` shell
+vusion ghpages -p sailfish-ui
 ```
