@@ -1,3 +1,3 @@
 export default {
-    name: 'u-well',
+    name: 'u-logo',
 };

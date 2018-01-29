@@ -1,0 +1,45 @@
+import Vue from 'vue';
+import Layout from './views/layout.vue';
+import Index from './views/index.vue';
+import Components from './views/components.vue';
+
+const Empty = Vue.extend({ template: '<div>待开发...</div>' });
+
+export default [
+    { path: '/', component: Layout, children: [
+        { path: '', component: Index, redirect: '/components' },
+        { path: 'components', component: Components, children: [
+            { path: '', redirect: 'u-base' },
+            /* Basic */
+            { path: 'u-base', component: () => import('proto-ui.vusion/src/base/README.md') },
+            { path: 'u-link', component: () => import('proto-ui.vusion/src/u-link.vue/README.md') },
+            { path: 'u-badge', component: () => import('proto-ui.vusion/src/u-badge.vue/README.md') },
+            { path: 'u-logo', component: () => import('../src/u-logo.vue/README.md') },
+            /* Layout */
+            { path: 'u-grid-layout', component: () => import('proto-ui.vusion/src/u-grid-layout.vue/README.md') },
+            /* Navigation */
+            { path: 'u-sidebar', component: () => import('proto-ui.vusion/src/u-sidebar.vue/README.md') },
+            { path: 'u-tabs', component: () => import('proto-ui.vusion/src/u-tabs.vue/README.md') },
+            { path: 'u-pagination', component: () => import('proto-ui.vusion/src/u-pagination.vue/README.md') },
+            /* Form */
+            { path: 'u-radios', component: () => import('proto-ui.vusion/src/u-radios.vue/README.md') },
+            { path: 'u-checkboxes', component: () => import('proto-ui.vusion/src/u-checkboxes.vue/README.md') },
+            { path: 'u-picviewer', component: Empty },
+            /* Data */
+            { path: 'u-list-view', component: () => import('proto-ui.vusion/src/u-list-view.vue/README.md') },
+            { path: 'u-tree-view', component: () => import('proto-ui.vusion/src/u-tree-view.vue/README.md') },
+            /* Popper */
+            { path: 'u-popper', component: () => import('proto-ui.vusion/src/u-popper.vue/README.md') },
+            /* Progress & Chart */
+            { path: 'u-linear-progress', component: () => import('proto-ui.vusion/src/u-linear-progress.vue/README.md') },
+            /* Mixin & Utils */
+            { path: 'u-emitter', component: () => import('proto-ui.vusion/src/u-emitter.vue/README.md') },
+            { path: 'u-router-item', component: () => import('proto-ui.vusion/src/u-router-item.vue/README.md') },
+            { path: 'u-collapse-transition', component: () => import('proto-ui.vusion/src/u-collapse-transition.vue/README.md') },
+            { path: 'u-draggable', component: () => import('proto-ui.vusion/src/u-draggable.vue/README.md') },
+            { path: 'u-droppable', component: () => import('proto-ui.vusion/src/u-droppable.vue/README.md') },
+            { path: 'u-dragger', component: () => import('proto-ui.vusion/src/u-dragger.vue/README.md') },
+        ] },
+    ] },
+    { path: '*', redirect: '/components' },
+];

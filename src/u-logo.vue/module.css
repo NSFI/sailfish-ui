@@ -1,0 +1,31 @@
+.root {
+    display: flex;
+    align-items: center;
+}
+
+/* Default Logo */
+.logo {
+    width: 104px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+}
+
+.icon{
+    width: 100px;
+    height: 25px;
+    display: inline-block;
+    background: url('./logo-sailfish.png?sprite');
+    background-size: cover;
+}
+
+.divider {
+    margin: 0 1em;
+    border-left: 1px solid white;
+    height: 18px;
+}
+
+.sub {
+    font-size: 16px;
+    color: white;
+}

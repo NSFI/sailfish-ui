@@ -3,6 +3,7 @@ node_modules/
 npm-debug.log
 
 public/
+/sailfish-ui/
 test-reports/
 
 yarn.lock
