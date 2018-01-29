@@ -14,15 +14,15 @@ docs-src/dev
 docs-src/build
 ```
 
-## Publish
-
-``` shell
-docs-src/build
-vusion publish 1.0.0
-```
-
 ## Deploy
 
 ``` shell
+docs-src/build
 vusion ghpages -p sailfish-ui
+```
+
+## Publish
+
+``` shell
+vusion publish 1.0.0
 ```
