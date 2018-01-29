@@ -1,0 +1,42 @@
+<?xml version="1.0" standalone="no"?> 
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
+<svg xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <font id="vusion-icon-font" horiz-adv-x="24">
+    <font-face font-family="vusion-icon-font"
+      units-per-em="1000" ascent="1000"
+      descent="0" />
+    <missing-glyph horiz-adv-x="0" />
+    <glyph glyph-name="arrow-up"
+      unicode="&#xF101;"
+      horiz-adv-x="1000" d=" M500 666.6666666666667L200 333.3333333333334L799.9999999999999 333.3333333333334z" />
+    <glyph glyph-name="arrow-up-1"
+      unicode="&#x61;&#x72;&#x72;&#x6F;&#x77;&#x2D;&#x75;&#x70;"
+      horiz-adv-x="1000" d=" M500 666.6666666666667L200 333.3333333333334L799.9999999999999 333.3333333333334z" />
+    <glyph glyph-name="arrow-down"
+      unicode="&#xF102;"
+      horiz-adv-x="1000" d=" M500 333.3333333333334L200 666.6666666666667L799.9999999999999 666.6666666666667z" />
+    <glyph glyph-name="arrow-down-1"
+      unicode="&#x61;&#x72;&#x72;&#x6F;&#x77;&#x2D;&#x64;&#x6F;&#x77;&#x6E;"
+      horiz-adv-x="1000" d=" M500 333.3333333333334L200 666.6666666666667L799.9999999999999 666.6666666666667z" />
+    <glyph glyph-name="arrow-left"
+      unicode="&#xF103;"
+      horiz-adv-x="1000" d=" M333.3333333333333 500L666.6666666666666 800L666.6666666666666 200.0000000000001z" />
+    <glyph glyph-name="arrow-left-1"
+      unicode="&#x61;&#x72;&#x72;&#x6F;&#x77;&#x2D;&#x6C;&#x65;&#x66;&#x74;"
+      horiz-adv-x="1000" d=" M333.3333333333333 500L666.6666666666666 800L666.6666666666666 200.0000000000001z" />
+    <glyph glyph-name="arrow-right"
+      unicode="&#xF104;"
+      horiz-adv-x="1000" d=" M666.6666666666666 500L333.3333333333333 800L333.3333333333333 200.0000000000001z" />
+    <glyph glyph-name="arrow-right-1"
+      unicode="&#x61;&#x72;&#x72;&#x6F;&#x77;&#x2D;&#x72;&#x69;&#x67;&#x68;&#x74;"
+      horiz-adv-x="1000" d=" M666.6666666666666 500L333.3333333333333 800L333.3333333333333 200.0000000000001z" />
+    <glyph glyph-name="keyboard-arrow-down"
+      unicode="&#xF105;"
+      horiz-adv-x="1000" d=" M308.75 673.3333333333334L500 482.5L691.25 673.3333333333334L750 614.5833333333334L500 364.5833333333334L250 614.5833333333334z" />
+    <glyph glyph-name="keyboard-arrow-down-1"
+      unicode="&#x6B;&#x65;&#x79;&#x62;&#x6F;&#x61;&#x72;&#x64;&#x2D;&#x61;&#x72;&#x72;&#x6F;&#x77;&#x2D;&#x64;&#x6F;&#x77;&#x6E;"
+      horiz-adv-x="1000" d=" M308.75 673.3333333333334L500 482.5L691.25 673.3333333333334L750 614.5833333333334L500 364.5833333333334L250 614.5833333333334z" />
+  </font>
+</defs>
+</svg>
