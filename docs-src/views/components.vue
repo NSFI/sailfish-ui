@@ -8,6 +8,7 @@
                     <u-sidebar-item to="/components/u-button">摁钮 <small>Button</small></u-sidebar-item>
                     <u-sidebar-item to="/components/u-badge">徽章 <small>Badge</small></u-sidebar-item>
                     <u-sidebar-item to="/components/u-label">标签 <small>Label</small></u-sidebar-item>
+                    <u-sidebar-item to="/components/u-icon">图标 <small>Icon</small></u-sidebar-item>
                     <u-sidebar-item to="/components/u-logo">标识 <small>Logo</small></u-sidebar-item>
                 </u-sidebar-group>
                 <u-sidebar-group title="Layout">

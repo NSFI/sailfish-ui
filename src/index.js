@@ -5,6 +5,7 @@ import SelectItem from './u-select-item.vue';
 import Logo from './u-logo.vue';
 import Sidebar from './u-sidebar.vue';
 import SidebarItem from './u-sidebar-item.vue';
+import Icon from './u-icon.vue';
 
 
 export {
@@ -12,5 +13,6 @@ export {
     SelectItem,
     Logo,
     Sidebar,
-    SidebarItem
+    SidebarItem,
+    Icon
 };

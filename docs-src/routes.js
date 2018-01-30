@@ -16,6 +16,7 @@ export default [
             { path: 'u-button', component: () => import('proto-ui.vusion/src/u-button.vue/README.md') },
             { path: 'u-badge', component: () => import('proto-ui.vusion/src/u-badge.vue/README.md') },
             { path: 'u-label', component: () => import('proto-ui.vusion/src/u-label.vue/README.md') },
+            { path: 'u-icon', component: () => import('../src/u-icon.vue/README.md') },
             { path: 'u-logo', component: () => import('../src/u-logo.vue/README.md') },
             /* Layout */
             { path: 'u-linear-layout', component: () => import('proto-ui.vusion/src/u-linear-layout.vue/README.md') },

@@ -1,0 +1,65 @@
+.root:before {
+    font-size: 24px;
+    vertical-align: -7px;
+    margin-right: 6px;
+    color: $icon-color;
+}
+
+.root[size="small"]:before {
+    font-size: 14px;
+    vertical-align: -2px;
+}
+
+.root[size="large"]:before {
+    font-size: 32px;
+    vertical-align: -12px;
+}
+
+.root[cursor="pointer"]:before {
+    cursor: pointer;
+}
+
+.root[disabled="disabled"]:before {
+    color: $icon-color-disabled;
+    cursor: default;
+}
+
+.root[name="close"]:before {
+    icon-font: url(./icons/close.svg);
+}
+
+.root[name="arrowleft"]:before {
+    icon-font: url(./icons/arrowleft.svg);
+}
+
+.root[name="arrowright"]:before {
+    icon-font: url(./icons/arrowright.svg);
+}
+
+.root[name="download"]:before {
+    icon-font: url(./icons/download.svg);
+}
+
+.root[name="fullscreen"]:before {
+    icon-font: url(./icons/fullscreen.svg);
+}
+
+.root[name="notfullscreen"]:before {
+    icon-font: url(./icons/notfullscreen.svg);
+}
+
+.root[name="one2one"]:before {
+    icon-font: url(./icons/one2one.svg);
+}
+
+.root[name="rotate"]:before {
+    icon-font: url(./icons/rotate.svg);
+}
+
+.root[name="zoomin"]:before {
+    icon-font: url(./icons/zoomin.svg);
+}
+
+.root[name="zoomout"]:before {
+    icon-font: url(./icons/zoomout.svg);
+}
