@@ -5,20 +5,32 @@
                 <u-sidebar-group title="Basic">
                     <u-sidebar-item to="/components/u-base">基础 <small>Base</small></u-sidebar-item>
                     <u-sidebar-item to="/components/u-link">链接 <small>Link</small></u-sidebar-item>
+                    <u-sidebar-item to="/components/u-button">摁钮 <small>Button</small></u-sidebar-item>
                     <u-sidebar-item to="/components/u-badge">徽章 <small>Badge</small></u-sidebar-item>
+                    <u-sidebar-item to="/components/u-label">标签 <small>Label</small></u-sidebar-item>
                     <u-sidebar-item to="/components/u-logo">标识 <small>Logo</small></u-sidebar-item>
                 </u-sidebar-group>
                 <u-sidebar-group title="Layout">
+                    <u-sidebar-item to="/components/u-linear-layout">线性布局 <small>LinearLayout</small></u-sidebar-item>
                     <u-sidebar-item to="/components/u-grid-layout">栅格布局 <small>GridLayout</small></u-sidebar-item>
                 </u-sidebar-group>
                 <u-sidebar-group title="Navigation">
+                    <u-sidebar-item to="/components/u-navbar">导航栏 <small>Navbar</small></u-sidebar-item>
                     <u-sidebar-item to="/components/u-sidebar">侧边栏 <small>Sidebar</small></u-sidebar-item>
                     <u-sidebar-item to="/components/u-tabs">标签页 <small>Tabs</small></u-sidebar-item>
                     <u-sidebar-item to="/components/u-pagination">翻页器 <small>Pagination</small></u-sidebar-item>
                 </u-sidebar-group>
                 <u-sidebar-group title="Form">
+                    <u-sidebar-item to="/components/u-input">单行输入 <small>Input</small></u-sidebar-item>
+                    <u-sidebar-item to="/components/u-number-input">数字输入 <small>NumberInput</small></u-sidebar-item>
+                    <u-sidebar-item to="/components/u-textarea">多行输入 <small>Textarea</small></u-sidebar-item>
                     <u-sidebar-item to="/components/u-radios">单选组 <small>Radios</small></u-sidebar-item>
                     <u-sidebar-item to="/components/u-checkboxes">多选组 <small>Checkboxes</small></u-sidebar-item>
+                    <u-sidebar-item to="/components/u-switch">开关 <small>Switch</small></u-sidebar-item>
+                    <u-sidebar-item to="/components/u-select">选择框 <small>Select</small></u-sidebar-item>
+                    <u-sidebar-item to="/components/u-slider">滑块 <small>Slider</small></u-sidebar-item>
+                    <u-sidebar-item to="/components/u-combo-slider">复合滑块 <small>ComboSlider</small></u-sidebar-item>
+                    <u-sidebar-item to="/components/u-form">表单 <small>Form</small></u-sidebar-item>
                 </u-sidebar-group>
                 <u-sidebar-group title="Data">
                     <u-sidebar-item to="/components/u-list-view">列表选择 <small>ListView</small></u-sidebar-item>
@@ -29,6 +41,7 @@
                 </u-sidebar-group>
                 <u-sidebar-group title="Progress & Chart">
                     <u-sidebar-item to="/components/u-linear-progress">线型进度条 <small>LinearProgress</small></u-sidebar-item>
+                    <u-sidebar-item to="/components/u-circular-progress">圆型进度条 <small>CircularProgress</small></u-sidebar-item>
                 </u-sidebar-group>
                 <u-sidebar-group title="Mixin & Utils">
                     <u-sidebar-item to="/components/u-emitter">触发器 <small>Emitter</small></u-sidebar-item>
