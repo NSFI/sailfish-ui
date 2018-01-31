@@ -11,7 +11,7 @@ export default [
         { path: 'components', component: Components, children: [
             { path: '', redirect: 'u-base' },
             /* Basic */
-            { path: 'u-base', component: () => import('proto-ui.vusion/src/base/README.md') },
+            { path: 'u-base', component: () => import('../src/README.md') },
             { path: 'u-link', component: () => import('proto-ui.vusion/src/u-link.vue/README.md') },
             { path: 'u-button', component: () => import('proto-ui.vusion/src/u-button.vue/README.md') },
             { path: 'u-badge', component: () => import('proto-ui.vusion/src/u-badge.vue/README.md') },
