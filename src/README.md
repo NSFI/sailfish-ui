@@ -133,13 +133,12 @@ export default {
 3. data
 4. created
 5. mounted
-6. activited
-7. update
-8. beforeRouteUpdate
-9. metods
+6. updated
+7. metods
+8. computed
+9. watch
 10. filter
-11. computed
-12. watch
+
 
 **方法的命名规范**
 
