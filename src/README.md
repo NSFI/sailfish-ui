@@ -98,11 +98,60 @@ u-select.vue/README.md              # 组件文档
 u-select.vue/CHANGELOG.md           # 修改日志
 ```
 
+#### index.js
+
+```javascript
+import Select from 'proto-ui.vusion/src/u-select.vue';
+
+export default {
+    name: 'u-select-xxxxx',
+    mixins: [Select],
+    props: {
+        value: { type: Number, default: 0 }
+    },
+    data() {
+        return {
+            currentValue: this.value,
+        };
+    },
+    methods: {
+        onInput(value) {
+        }
+    },
+    watch: {
+        value(value) {
+            this.currentValue = value;
+        }
+    }
+};
+```
+
+**方法的放置顺序**
+
+1. components
+2. props
+3. data
+4. created
+5. mounted
+6. activited
+7. update
+8. beforeRouteUpdate
+9. metods
+10. filter
+11. computed
+12. watch
+
+**方法的命名规范**
+
+1. 动宾短语（good：jumpPage、openCarInfoDialog）（bad：go、nextPage、show、open、login）
+2. ajax 方法以 get、post 开头，以 data 结尾（good：getListData、postFormData）（bad：takeData、confirmData、getList、postForm）
+3. 事件方法以 on 开头（onTypeChange、onUsernameInput）
+4. 尽量使用常用单词开头（set、get、open、close、jump）
+5. 驼峰命名（good: getListData）（bad: get_list_data、getlistData）
+
 #### module.css
 
 为了避免全局选择器的冲突，也为了避免复杂繁琐的命名规范，Vusion 采用 [CSS Modules](https://github.com/css-modules/css-modules) 来解决这个问题。
-
-
 
 ### 组件的扩展与继承
 

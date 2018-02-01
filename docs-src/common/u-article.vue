@@ -77,6 +77,10 @@ export default {
     list-style: decimal;
 }
 
+.root > ol > li{
+    list-style: inherit;
+}
+
 .root > p > img {
     max-width: 100%;
 }
