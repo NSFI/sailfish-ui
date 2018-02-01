@@ -1,3 +1,6 @@
-<span :class="$style.root" :name="name" :size="size" :title="title" :disabled="disabled" :cursor="cursor">
+<a v-if="url" download :href="url" :class="$style.root" :name="name" :size="size" :title="title" :disabled="disabled" :cursor="cursor">
+    <slot></slot>
+</a>
+<span v-else :class="$style.root" :name="name" :size="size" :title="title" :disabled="disabled" :cursor="cursor">
     <slot></slot>
 </span>

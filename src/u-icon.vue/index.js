@@ -4,7 +4,8 @@ export default {
         name: String,
         size: String,
         title: String,
-        disabled: String,
-        cursor: String
+        disabled: Boolean,
+        cursor: String,
+        url: String
     }
 };
