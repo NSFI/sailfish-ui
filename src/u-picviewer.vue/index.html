@@ -1,0 +1,48 @@
+<div :class="$style.root" tabindex="-1" v-show="visible" :style="container.style" @webkitfullscreenchange="onFullChange" @mousewheel.prevent="onWheel" @keydown.stop.esc="close" @keydown.stop.up="zoom(image.ratio+0.1)" @keydown.stop.down="zoom(image.ratio-0.1)"
+    @keydown.stop.left="current>0&&current--" @keydown.stop.right="current<(pics.length-1)&&current++" @mousedown="onMouseDown">
+    <div :class="$style.close" @click.stop="close">
+        <u-icon name="close" size="small"></u-icon>
+    </div>
+    <div :class="$style.prev" @click.stop="current--" v-show="current!=0">
+        <u-icon name="arrowleft"></u-icon>
+    </div>
+    <div :class="$style.next" @click.stop="current++" v-show="current!=pics.length-1">
+        <u-icon name="arrowright"></u-icon>
+    </div>
+    <div :class="$style.canvas" :moving="moving==='img'">
+        <img :class="$style.img" v-for="(img,ind) in pics" :current="ind==current" ref="imgs" :src="img.src" />
+    </div>
+    <div :class="$style.toolbar">
+        <u-grid-layout gap="none">
+            <u-grid-layout-row :repeat="1" :class="$style.toolbarTitle">
+                {{current+1}}/{{pics.length}}
+            </u-grid-layout-row>
+            <u-grid-layout-row :repeat="6" type="flex" justify="space-around" alignment="center" :class="$style.toolbarCon">
+                <u-grid-layout-column :class="$style.icon" @click.native.stop.prevent="zoom(1)">
+                    <u-icon name="one2one" size="large" :disabled="isOne2One"></u-icon>
+                </u-grid-layout-column>
+                <span :class="$style.divider"></span>
+                <u-grid-layout-column :class="$style.icon" @click.native.stop.prevent="switchFull">
+                    <u-icon v-if="container.isFull" name="notfullscreen" size="large" :disabled="!isFullEnabled"></u-icon>
+                    <u-icon v-else name="fullscreen" size="large" :disabled="!isFullEnabled"></u-icon>
+                </u-grid-layout-column>
+                <span :class="$style.divider"></span>
+                <u-grid-layout-column :class="$style.icon" @click.native.stop.prevent="zoom(image.ratio+0.1)">
+                    <u-icon name="zoomout" size="large" :disabled="image.ratio>=5"></u-icon>
+                </u-grid-layout-column>
+                <span :class="$style.divider"></span>
+                <u-grid-layout-column :class="$style.icon" @click.native.stop.prevent="zoom(image.ratio-0.1)">
+                    <u-icon name="zoomin" size="large" :disabled="image.ratio<=0.1"></u-icon>
+                </u-grid-layout-column>
+                <span :class="$style.divider"></span>
+                <u-grid-layout-column :class="$style.icon" @click.native.stop.prevent="rotate">
+                    <u-icon name="rotate" size="large"></u-icon>
+                </u-grid-layout-column>
+                <span :class="$style.divider"></span>
+                <u-grid-layout-column :class="$style.icon">
+                    <u-icon name="download" size="large" :url="pics[current].src"></u-icon>
+                </u-grid-layout-column>
+            </u-grid-layout-row>
+        </u-grid-layout>
+    </div>
+</div>

@@ -35,7 +35,7 @@ export default {
     height: 64px;
     background: $brand-primary;
     box-shadow: 0 3px 4px rgba(0,0,0,0.1);
-    z-index: 2000;
+    z-index: 100;
 }
 
 .body {

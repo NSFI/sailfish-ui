@@ -41,6 +41,7 @@
                 </u-sidebar-group>
                 <u-sidebar-group title="Popper">
                     <u-sidebar-item to="/components/u-popper">弹出层 <small>Popper</small></u-sidebar-item>
+                    <u-sidebar-item to="/components/u-picviewer">图片查看器 <small>PictrueView</small></u-sidebar-item>
                 </u-sidebar-group>
                 <u-sidebar-group title="Progress & Chart">
                     <u-sidebar-item to="/components/u-linear-progress">线型进度条 <small>LinearProgress</small></u-sidebar-item>

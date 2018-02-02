@@ -1,0 +1,115 @@
+.root {
+    position: absolute;
+    z-index: $zIndex-PicViewer;
+    cursor: move;
+    user-select: none;
+    touch-action: none;
+    border-radius: 5px;
+    background-color: rgba(222, 222, 222, 0.5);
+    box-shadow: 0px 2px 14px rgba(183, 183, 183, 0.5);
+    overflow: hidden;
+}
+
+.root:hover {
+    .prev, .next {
+        display: flex;
+    }
+    .toolbar {
+        display: block;
+    }
+}
+
+.canvas[moving] img[current] {
+    transition: none;
+}
+
+.img {
+    display: none;
+    transition: none;
+}
+
+.img[current] {
+    display: block;
+    transition: all .3s ease-out;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: calc($zIndex-PicViewer + 2);
+    cursor: pointer;
+    >a::before, >span::before {
+        color: #fff;
+    }
+}
+
+/* 向左以及向右翻页的icon */
+
+.iconDir {
+    position: absolute;
+    top: 50%;
+    margin-top: -15px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 30px;
+    height: 30px;
+    display: none;
+    composes: icon;
+}
+
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 25px;
+    height: 25px;
+    composes: icon;
+}
+
+.prev {
+    left: 0px;
+    margin-left: 20px;
+    composes: iconDir;
+}
+
+.next {
+    right: 0px;
+    margin-right: 20px;
+    composes: iconDir;
+}
+
+.toolbar {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    margin-left: -150px;
+    width: 300px;
+    display: none;
+}
+
+.toolbarTitle {
+    font-size: 12px;
+    line-height: 1;
+    height: 20px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    opacity: 0.5;
+    color: #ccc;
+    text-align: center;
+}
+
+.toolbarCon {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 40px;
+}
+
+.divider {
+    width: 1px;
+    background-color: #3a3a3a;
+    height: 24px;
+}

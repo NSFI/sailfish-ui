@@ -42,6 +42,7 @@ export default [
             { path: 'u-tree-view', component: () => import('proto-ui.vusion/src/u-tree-view.vue/README.md') },
             /* Popper */
             { path: 'u-popper', component: () => import('proto-ui.vusion/src/u-popper.vue/README.md') },
+            { path: 'u-picviewer', component: () => import('../src/u-picviewer.vue/README.md') },
             /* Progress & Chart */
             { path: 'u-linear-progress', component: () => import('proto-ui.vusion/src/u-linear-progress.vue/README.md') },
             { path: 'u-circular-progress', component: () => import('proto-ui.vusion/src/u-circular-progress.vue/README.md') },
