@@ -131,12 +131,12 @@ export default {
 1. components
 2. props
 3. data
-4. created
-5. mounted
-6. updated
-7. metods
-8. computed
-9. watch
+4. computed
+5. watch
+6. created
+7. mounted
+8. updated
+9. metods
 10. filter
 
 

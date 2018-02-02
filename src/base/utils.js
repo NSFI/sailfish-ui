@@ -25,7 +25,12 @@ export const camelCase = function(name) {
         ? letter.toUpperCase()
         : letter).replace(MOZ_HACK_REGEXP, 'Moz$1');
 };
-
+/**
+ * 获取元素的样式
+ * @param  {[type]} element   [description] 元素标签
+ * @param  {[type]} styleName [description] 样式名
+ * @return {[type]}           [description]
+ */
 export const getStyle = function(element, styleName) {
     if (!element || !styleName)
         return null;
@@ -44,7 +49,11 @@ export const getStyle = function(element, styleName) {
         return element.style[styleName];
     }
 };
-
+/**
+ * 全屏
+ * @param  {[type]} element [description] 需要全屏展示的元素
+ * @return {[type]}         [description]
+ */
 export const fullscreen = function(element) {
     var func = element.requestFullscreen || element.msRequestFullscreen || element.mozRequestFullScreen || element.webkitRequestFullScreen;
 
@@ -53,6 +62,10 @@ export const fullscreen = function(element) {
     }
 }
 
+/**
+ * 退出全屏
+ * @return {[type]} [description]
+ */
 export const exitfullscreen = function() {
     if (document.exitFullscreen) {
         document.exitFullscreen();
@@ -63,4 +76,27 @@ export const exitfullscreen = function() {
     } else if (document.webkitExitFullscreen) {
         document.webkitExitFullscreen();
     }
+}
+
+/**
+ * 获取图片的尺寸
+ * @param  {[type]}   image    [description] img标签
+ * @param  {Function} callback [description] 获取到尺寸后的回调
+ * @param  {[type]}   scope    [description] 回调绑定的this
+ * @return {[type]}            [description]
+ */
+export const getImageSize = function(image, callback, scope) {
+    var newImage;
+
+    // Modern browsers
+    if (image.naturalWidth) {
+        return callback.call(scope, image.naturalWidth, image.naturalHeight);
+    }
+
+    // IE8: Don't use `new Image()` here
+    newImage = document.createElement('img');
+    newImage.onload = function() {
+        callback.call(scope, this.width, this.height);
+    };
+    newImage.src = image.src;
 }
