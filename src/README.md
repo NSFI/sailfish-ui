@@ -133,10 +133,10 @@ export default {
 3. data
 4. computed
 5. watch
-6. created
-7. mounted
-8. updated
-9. metods
+6. metods
+7. created
+8. mounted
+9. updated
 10. filter
 
 
