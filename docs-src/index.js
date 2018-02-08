@@ -21,7 +21,7 @@ import routes from './routes';
 new Vue({
     router: new VueRouter({
         base: '/sailfish-ui/',
-        mode: history.pushState ? 'history' : 'hash',
+        mode: 'hash',
         routes,
         scrollBehavior: (to, from, savedPosition) => savedPosition || { x: 0, y: 0 },
     }),
