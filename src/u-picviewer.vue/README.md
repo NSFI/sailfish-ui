@@ -34,31 +34,31 @@ export default {
             index: 0,
             pics: [{
                     name: 'tibet-1',
-                    src: '/images/tibet-1.jpg'
+                    src: '/sailfish-ui/images/tibet-1.jpg'
                 }, {
                     name: 'tibet-2',
-                    src: '/images/tibet-2.jpg'
+                    src: '/sailfish-ui/images/tibet-2.jpg'
                 }, {
                     name: 'tibet-3',
-                    src: '/images/tibet-3.jpg'
+                    src: '/sailfish-ui/images/tibet-3.jpg'
                 }, {
                     name: 'tibet-4',
-                    src: '/images/tibet-4.jpg'
+                    src: '/sailfish-ui/images/tibet-4.jpg'
                 }, {
                     name: 'tibet-5',
-                    src: '/images/tibet-5.jpg'
+                    src: '/sailfish-ui/images/tibet-5.jpg'
                 }, {
                     name: 'tibet-6',
-                    src: '/images/tibet-6.jpg'
+                    src: '/sailfish-ui/images/tibet-6.jpg'
                 }, {
                     name: 'tibet-7',
-                    src: '/images/tibet-7.jpg'
+                    src: '/sailfish-ui/images/tibet-7.jpg'
                 }, {
                     name: 'tibet-8',
-                    src: '/images/tibet-8.jpg'
+                    src: '/sailfish-ui/images/tibet-8.jpg'
                 }, {
                     name: 'tibet-9',
-                    src: '/images/tibet-9.jpg'
+                    src: '/sailfish-ui/images/tibet-9.jpg'
                 }]
         };
     },

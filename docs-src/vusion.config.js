@@ -82,6 +82,6 @@ module.exports = {
         },
     },
     webpackDevServer: {
-        contentBase: path.resolve(__dirname, '../sailfish-ui'),
+        contentBase: [path.resolve(__dirname, '../sailfish-ui'),path.resolve(__dirname, '../')],
     },
 };
