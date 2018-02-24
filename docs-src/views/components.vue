@@ -21,7 +21,9 @@
                     <u-sidebar-item to="/components/u-navbar">导航栏 <small>Navbar</small></u-sidebar-item>
                     <u-sidebar-item to="/components/u-sidebar">侧边栏 <small>Sidebar</small></u-sidebar-item>
                     <u-sidebar-item to="/components/u-tabs">标签页 <small>Tabs</small></u-sidebar-item>
+                    <u-sidebar-item to="/components/u-steps">步骤条 <small>Steps</small></u-sidebar-item>
                     <u-sidebar-item to="/components/u-pagination">翻页器 <small>Pagination</small></u-sidebar-item>
+                    <u-sidebar-item to="/components/u-collapse">折叠面板 <small>Collapse</small></u-sidebar-item>
                 </u-sidebar-group>
                 <u-sidebar-group title="Form">
                     <u-sidebar-item to="/components/u-input">单行输入 <small>Input</small></u-sidebar-item>

@@ -25,7 +25,9 @@ export default [
             { path: 'u-navbar', component: () => import('proto-ui.vusion/src/u-navbar.vue/README.md') },
             { path: 'u-sidebar', component: () => import('proto-ui.vusion/src/u-sidebar.vue/README.md') },
             { path: 'u-tabs', component: () => import('proto-ui.vusion/src/u-tabs.vue/README.md') },
+            { path: 'u-steps', component: () => import('proto-ui.vusion/src/u-steps.vue/README.md') },
             { path: 'u-pagination', component: () => import('proto-ui.vusion/src/u-pagination.vue/README.md') },
+            { path: 'u-collapse', component: () => import('proto-ui.vusion/src/u-collapse.vue/README.md') },
             /* Form */
             { path: 'u-input', component: () => import('proto-ui.vusion/src/u-input.vue/README.md') },
             { path: 'u-number-input', component: () => import('../src/u-number-input.vue/README.md') },
