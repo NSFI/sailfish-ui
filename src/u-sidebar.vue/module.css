@@ -3,6 +3,5 @@
 .root {
     user-select: none;
     background-color: $sidebar-bgcolor;
-    width: 185px;
     overflow-y: auto;
 }

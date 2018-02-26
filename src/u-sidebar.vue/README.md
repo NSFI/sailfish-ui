@@ -6,7 +6,7 @@
 #### 路由模式
 
 ``` html
-<u-sidebar>
+<u-sidebar style="width:185px">
     <u-sidebar-item to="/components/u-navbar">导航栏</u-sidebar-item>
     <u-sidebar-item to="/components/u-sidebar">侧边栏</u-sidebar-item>
     <u-sidebar-item to="/components/u-tabs">标签页</u-sidebar-item>
@@ -16,7 +16,7 @@
 #### value模式
 
 ``` html
-<u-sidebar value="3" :router="false">
+<u-sidebar value="3" :router="false" style="width:185px">
     <u-sidebar-item value="1">导航栏</u-sidebar-item>
     <u-sidebar-item value="2">侧边栏</u-sidebar-item>
     <u-sidebar-item value="3">标签页</u-sidebar-item>
@@ -28,7 +28,7 @@
 ``` html
 <u-grid-layout>
     <u-grid-layout-column :span="4">
-        <u-sidebar disabled>
+        <u-sidebar disabled style="width:185px">
             <u-sidebar-item to="/components/u-navbar">导航栏</u-sidebar-item>
             <u-sidebar-item to="/components/u-sidebar">侧边栏</u-sidebar-item>
             <u-sidebar-item to="/components/u-tabs">标签页</u-sidebar-item>
@@ -47,7 +47,7 @@
 ### 分隔符
 
 ``` html
-<u-sidebar>
+<u-sidebar style="width:185px">
     <u-sidebar-item to="/components/u-navbar">导航栏</u-sidebar-item>
     <u-sidebar-item to="/components/u-sidebar">侧边栏</u-sidebar-item>
     <u-sidebar-item to="/components/u-tabs">标签页</u-sidebar-item>
@@ -64,7 +64,7 @@
     <u-grid-layout-row>
         <u-grid-layout-column :span="4">
             <p>默认，无折叠功能</p>
-            <u-sidebar>
+            <u-sidebar style="width:185px">
                 <u-sidebar-group title="Basic">
                     <u-sidebar-item>链接</u-sidebar-item>
                     <u-sidebar-item>按钮</u-sidebar-item>
@@ -85,7 +85,7 @@
         </u-grid-layout-column>
         <u-grid-layout-column :span="4">
             <p>开启折叠功能</p>
-            <u-sidebar collapsible>
+            <u-sidebar collapsible style="width:185px">
                 <u-sidebar-group title="Basic">
                     <u-sidebar-item>链接</u-sidebar-item>
                     <u-sidebar-item>按钮</u-sidebar-item>
@@ -106,7 +106,7 @@
         </u-grid-layout-column>
         <u-grid-layout-column :span="4">
             <p>手风琴模式</p>
-            <u-sidebar collapsible accordion>
+            <u-sidebar collapsible accordion style="width:185px">
                 <u-sidebar-group title="Basic">
                     <u-sidebar-item>链接</u-sidebar-item>
                     <u-sidebar-item>按钮</u-sidebar-item>
@@ -129,7 +129,7 @@
     <u-grid-layout-row>
         <u-grid-layout-column :span="4">
             <p>触发方式：整行点击均可触发（默认）</p>
-            <u-sidebar collapsible expand-trigger="click">
+            <u-sidebar collapsible expand-trigger="click" style="width:185px">
                 <u-sidebar-group title="Basic">
                     <u-sidebar-item>链接</u-sidebar-item>
                     <u-sidebar-item>按钮</u-sidebar-item>
@@ -144,7 +144,7 @@
         </u-grid-layout-column>
         <u-grid-layout-column :span="4">
             <p>触发方式：仅点击小箭头时触发</p>
-            <u-sidebar collapsible expand-trigger="click-expander">
+            <u-sidebar collapsible expand-trigger="click-expander" style="width:185px">
                 <u-sidebar-group title="Basic">
                     <u-sidebar-item>链接</u-sidebar-item>
                     <u-sidebar-item>按钮</u-sidebar-item>
