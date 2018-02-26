@@ -1,11 +1,11 @@
 <template>
     <div>
         <div :class="$style.side">
-            <u-sidebar size="small">
-                <u-sidebar-group title="Rule">
+            <u-sidebar collapsible size="small">
+                <u-sidebar-group expanded title="Rule">
                     <u-sidebar-item to="/components/u-base">规范 <small>Rule</small></u-sidebar-item>
                 </u-sidebar-group>
-                <u-sidebar-group title="Basic">
+                <u-sidebar-group expanded title="Basic">
                     <u-sidebar-item to="/components/u-link">链接 <small>Link</small></u-sidebar-item>
                     <u-sidebar-item to="/components/u-button">摁钮 <small>Button</small></u-sidebar-item>
                     <u-sidebar-item to="/components/u-badge">徽章 <small>Badge</small></u-sidebar-item>
