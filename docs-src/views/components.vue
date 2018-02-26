@@ -66,9 +66,8 @@
 
 <style module>
 .side {
-    padding: 20px 0;
     position: fixed;
-    width: 220px;
+    width: 185px;
     top: 64px;
     bottom: 0;
     background: #f0f6fa;
@@ -76,7 +75,7 @@
 }
 
 .main {
-    margin-left: 220px;
+    margin-left: 185px;
     padding: 40px;
 }
 </style>

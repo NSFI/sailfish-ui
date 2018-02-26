@@ -5,6 +5,7 @@ import SelectItem from './u-select-item.vue';
 import Logo from './u-logo.vue';
 import Sidebar from './u-sidebar.vue';
 import SidebarItem from './u-sidebar-item.vue';
+import SidebarGroup from './u-sidebar-group.vue';
 import Icon from './u-icon.vue';
 import PicViewer from './u-picviewer.vue';
 
@@ -14,6 +15,7 @@ export {
     Logo,
     Sidebar,
     SidebarItem,
+    SidebarGroup,
     Icon,
     PicViewer
 };

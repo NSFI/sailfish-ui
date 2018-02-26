@@ -23,7 +23,7 @@ export default [
             { path: 'u-grid-layout', component: () => import('proto-ui.vusion/src/u-grid-layout.vue/README.md') },
             /* Navigation */
             { path: 'u-navbar', component: () => import('proto-ui.vusion/src/u-navbar.vue/README.md') },
-            { path: 'u-sidebar', component: () => import('proto-ui.vusion/src/u-sidebar.vue/README.md') },
+            { path: 'u-sidebar', component: () => import('../src/u-sidebar.vue/README.md') },
             { path: 'u-tabs', component: () => import('proto-ui.vusion/src/u-tabs.vue/README.md') },
             { path: 'u-steps', component: () => import('proto-ui.vusion/src/u-steps.vue/README.md') },
             { path: 'u-pagination', component: () => import('proto-ui.vusion/src/u-pagination.vue/README.md') },

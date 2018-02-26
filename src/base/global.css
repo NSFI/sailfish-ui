@@ -2,7 +2,9 @@
 $brand-primary: #5294e0;
 $icon-color: #464141;
 $icon-color-disabled: #b6b6b6;
-
+$sidebar-color: #222;
+$sidebar-bgcolor: #fafafa;
+$sidebar-hoverbgcolor:#e6e6e6;
 /*Z-Index Scale (private vars)*/
 
 $zIndex-1:1;
