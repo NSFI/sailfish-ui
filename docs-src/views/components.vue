@@ -41,8 +41,15 @@
                     <u-sidebar-item to="/components/u-list-view">列表选择 <small>ListView</small></u-sidebar-item>
                     <u-sidebar-item to="/components/u-tree-view">树型选择 <small>TreeView</small></u-sidebar-item>
                 </u-sidebar-group>
+                <u-sidebar-group title="DateTime">
+                    <u-sidebar-item to="/components/u-calendar">日历 <small>Calendar</small></u-sidebar-item>
+                    <u-sidebar-item to="/components/u-date-picker">日期选择 <small>DatePicker</small></u-sidebar-item>
+                    <u-sidebar-item to="/components/u-time-picker">时间选择 <small>TimePicker</small></u-sidebar-item>
+                    <u-sidebar-item to="/components/u-date-time-picker">日期时间 <small>DateTimePicker</small></u-sidebar-item>
+                </u-sidebar-group>
                 <u-sidebar-group title="Popper">
                     <u-sidebar-item to="/components/u-popper">弹出层 <small>Popper</small></u-sidebar-item>
+                    <u-sidebar-item to="/components/u-popover">弹出框 <small>Popover</small></u-sidebar-item>
                     <u-sidebar-item to="/components/u-picviewer">图片查看器 <small>PictrueView</small></u-sidebar-item>
                 </u-sidebar-group>
                 <u-sidebar-group title="Progress & Chart">

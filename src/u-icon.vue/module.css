@@ -62,3 +62,11 @@
 .root[name="zoomout"]:before {
     icon-font: url(./icons/zoomout.svg);
 }
+
+.root[name="up"]:before {
+    icon-font: url(./icons/keyboard-arrow-up.svg);
+}
+
+.root[name="down"]:before {
+    icon-font: url(./icons/keyboard-arrow-down.svg);
+}

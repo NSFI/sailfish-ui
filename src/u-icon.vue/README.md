@@ -16,6 +16,8 @@
     <u-icon name="rotate">rotate</u-icon>
     <u-icon name="zoomin">zoomin</u-icon>
     <u-icon name="zoomout">zoomout</u-icon>
+    <u-icon name="up">up</u-icon>
+    <u-icon name="down">down</u-icon>
 </u-linear-layout>
 ```
 

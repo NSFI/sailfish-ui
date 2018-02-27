@@ -5,6 +5,7 @@ $icon-color-disabled: #b6b6b6;
 $sidebar-color: #222;
 $sidebar-bgcolor: #fafafa;
 $sidebar-hoverbgcolor:#e6e6e6;
+$field-background: #fff;
 /*Z-Index Scale (private vars)*/
 
 $zIndex-1:1;

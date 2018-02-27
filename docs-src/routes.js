@@ -42,8 +42,14 @@ export default [
             /* Data */
             { path: 'u-list-view', component: () => import('proto-ui.vusion/src/u-list-view.vue/README.md') },
             { path: 'u-tree-view', component: () => import('proto-ui.vusion/src/u-tree-view.vue/README.md') },
+            /* DateTime */
+            { path: 'u-calendar', component: () => import('../src/u-calendar.vue/README.md') },
+            { path: 'u-time-picker', component: () => import('../src/u-time-picker.vue/README.md') },
+            { path: 'u-date-picker', component: () => import('../src/u-date-picker.vue/README.md') },
+            { path: 'u-date-time-picker', component: () => import('../src/u-date-time-picker.vue/README.md') },
             /* Popper */
             { path: 'u-popper', component: () => import('proto-ui.vusion/src/u-popper.vue/README.md') },
+            { path: 'u-popover', component: () => import('../src/u-popover.vue/README.md') },
             { path: 'u-picviewer', component: () => import('../src/u-picviewer.vue/README.md') },
             /* Progress & Chart */
             { path: 'u-linear-progress', component: () => import('proto-ui.vusion/src/u-linear-progress.vue/README.md') },
